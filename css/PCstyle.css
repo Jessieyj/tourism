@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+a{
+	color: #eee;
+	text-decoration: blink;
+}
+
+#search{
+	position: relative;
+}
+#search img{
+	width: 100vm;
+}
+.sear{
+	width: 395px;
+	height: 36px;
+	background-color: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0 0 -200px;
+	opacity: 0.6;
+	border-radius: 6px;
+}
+.search{
+	width: 310px;
+	height: 31px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -18px 0 0 -197px;
+	color: #666;
+	border: 1px solid #666;
+	border-radius: 6px;
+	font-size: 16px;
+	outline: none;
+} 
+.button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -18px 0 0 114px;
+} 
+/*#tour{
+	width: 1263px;
+	height: 1050px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#tour .center h2{
+	font-size: 38px;
+	letter-spacing: 2px;
+	color: #666;
+	margin: 10px 0 ;
+}
+#tour .center p{
+	color: #666;
+	margin: 10px 0;
+}*/
+#tour figure{
+	width: 340px;
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 10px 5px;
+	text-align: left;
+	position: relative;
+}
+#tour figure img{
+	vertical-align: middle;
+	width: 330px;
+	height: 211px;
+}
+#tour figcaption{
+	text-align: left;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 4px 0 0 5px;
+}
+#tour title{
+	color: #333;
+	font-weight: normal;
+
+}
+#tour .sat{
+	float: right;
+	font-size: 13px;
+	color: #999;
+	font-style: normal;
+	position: relative;
+	top:5px;
+	right: 10px;
+}
+#tour .price{
+	color: #f60;
+	font-size: 14px;
+}
+#tour .price strong{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#tour .type{
+	width: 90px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #59b200;
+	position: absolute;
+	top:4px;
+	left: 4px;
+}
+
